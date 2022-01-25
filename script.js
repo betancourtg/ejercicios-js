@@ -44,9 +44,11 @@ const ejercicio2 = [
   },
 ];
 
-let condicion = ejercicio2 = edad >=18;
+Arreglo.ejercicio2
 
-let condicion2 = ejercicio2= esFamiliar = true;
+let condicion = edad >=18;
+
+let condicion2 = esFamiliar = true;
 
 console.log("condicion =>", condicion);
 
