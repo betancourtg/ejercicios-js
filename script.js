@@ -4,13 +4,19 @@ const ejercicio1 = [
 ];
 const esPrimo = num => {
   for (let i = 2; i < num; i++) {
-    if (num % i == 0) return false;
+    if (num % i == 0){
+      console.log("es Primo")
+    } else {
+      console.log("No es primo")
+    }
+    
+    /*return false;
 
   } return true
 }
 ejercicio1.forEach(num => {
   console.log("%d es primo %s", num, esPrimo(num));
-})
+}) */
 const ejercicio2 = [
   {
     nombre: "Gabriel",
@@ -47,4 +53,3 @@ const ejercicio2 = [
 let invitado = ejercicio2.filter(invitado=> invitado.esFamiliar == true
   && invitado.edad >=18);
   console.log(invitado);
-  
