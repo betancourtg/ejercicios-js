@@ -4,10 +4,10 @@ const ejercicio1 = [
 ];
 const esPrimo = num => {
   for (let i = 2; i < num; i++) {
-    if (num % i == 0){
-      console.log("es Primo")
+    if (num % i == 0) {
+      console.log(num "%d es Primo %s")
     } else {
-      console.log("No es primo")
+      console.log(num "%d No es primo %s")
     }
     
     /*return false;
@@ -16,7 +16,7 @@ const esPrimo = num => {
 }
 ejercicio1.forEach(num => {
   console.log("%d es primo %s", num, esPrimo(num));
-}) */
+}) 
 const ejercicio2 = [
   {
     nombre: "Gabriel",
