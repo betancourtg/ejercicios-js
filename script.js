@@ -9,7 +9,7 @@ const esPrimo = num => {
   } return true
 }
 ejercicio1.forEach(num => {
-  console.log("¿%d es primo? %s", num, esPrimo(num));
+  console.log("%d es primo %s", num, esPrimo(num));
 })
 const ejercicio2 = [
   {
@@ -43,3 +43,8 @@ const ejercicio2 = [
     esFamiliar: true,
   },
 ];
+
+let invitado = ejercicio2.filter(invitado=> invitado.esFamiliar == true
+  && invitado.edad >=18);
+  console.log(invitado);
+  
