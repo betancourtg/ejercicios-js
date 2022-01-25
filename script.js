@@ -5,9 +5,9 @@ const ejercicio1 = [
 const esPrimo = num => {
   for (let i = 2; i < num; i++) {
     if (num % i == 0) {
-      console.log(num "%d es Primo %s")
+      console.log((num), "es Primo"))
     } else {
-      console.log(num "%d No es primo %s")
+      console.log((num), "No es primo")
     }
     
     /*return false;
