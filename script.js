@@ -55,7 +55,7 @@ console.log("condicion =>", condicion);
 console.log("condicion2 =>", condicion2);
 
 if (condicion && condicion2 || condicion3) {
-  console.log('Es admitido');
+  console.log(`Es admitido`);
 } else {
-  console.log('No es admitido');
+  console.log(`No es admitido`);
 }
