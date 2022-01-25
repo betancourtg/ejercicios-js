@@ -5,13 +5,7 @@ const ejercicio1 = [
 const esPrimo = num => {
   for (let i = 2; i < num; i++) {
     if (num % i == 0) {
-      console.log((num), "es Primo"))
-    } else {
-      console.log((num), "No es primo")
-    }
-    
-    /*return false;
-
+    return false;
   } return true
 }
 ejercicio1.forEach(num => {
@@ -50,6 +44,16 @@ const ejercicio2 = [
   },
 ];
 
-let invitado = ejercicio2.filter(invitado=> invitado.esFamiliar == true
-  && invitado.edad >=18);
-  console.log(invitado);
+let condicion =edad >=18;
+
+let condicion2 = esFamiliar = true;
+
+console.log("condicion =>", condicion);
+
+console.log("condicion2 =>", condicion2);
+
+if (condicion && condicion2 || condicion3) {
+  console.log('Es admitido');
+} else {
+  console.log('No es admitido');
+}
