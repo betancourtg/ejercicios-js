@@ -3,16 +3,27 @@ const ejercicio1 = [
   19, 88, 456, 13, 23, 24,
 ];
 
-let sonPrimos = (arreglo = Array) => {
-  arreglo.forEach ( ( numero ) => {
-    for (let i = 2; i <= numero; i++ ) {
-      if ( numero % i == 0 && numero != i ) {
-      break; 
-    } else if ( numero % 1 == 0) {
-      console.log(`${ numero } es primo`);
+function primo (a) {
+  if (a <= 1){
+    return false
+  } else{
+    for (let i = 2; i<a;i++){
+      if(a%i==0){
+        return false
+      }
     }
-  } )
+    return true
   }
+}
+function numeroPrimo(){
+  ejercicio1.forEach(function(a){
+    if(primo(a)){
+      console.log("el número"+ a + "es primo")
+    }
+  })
+}
+numeroPrimo
+
 
 const ejercicio2 = [
   {
