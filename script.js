@@ -7,7 +7,7 @@ let sonPrimos = (arreglo = Array) => {
   arreglo.forEach ( (numero) => {
     for (let i = 2; i <= numero; i++ ) {
       break; 
-    } else if (numero % 1 == 0) {
+    } if (numero % 1 == 0) {
       console.log(`${numero} es primo`);
     }
   })
