@@ -4,15 +4,14 @@ const ejercicio1 = [
 ];
 
 let sonPrimos = (arreglo = Array) => {
-  arreglo.forEach ( (numero) => {
+  arreglo.forEach ( ( numero ) => {
     for (let i = 2; i <= numero; i++ ) {
       break; 
-    } if (numero % 1 == 0) {
-      console.log(`${numero} es primo`);
+    } if ( numero % 1 == 0) {
+      console.log(`${ numero } es primo`);
     }
   })
-  });
-}
+  }
 
 const ejercicio2 = [
   {
